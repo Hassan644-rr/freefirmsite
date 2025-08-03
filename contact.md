@@ -1,4 +1,7 @@
 ---
-layout: contact
-title: Contact
+layout: page
+title: اتصل بنا
+permalink: /contact/
 ---
+
+<!-- يمكنك لاحقًا إضافة نموذج تواصل أو بريد إلكتروني أو رابط واتساب -->
