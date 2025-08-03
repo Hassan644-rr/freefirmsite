@@ -1,17 +1,9 @@
----
-layout: default
-title: Services
----
-
-# Services
-
-<div class="">
-	{% for service in site.data.services %}
-		<div class="card my-3">
-		  	<div class="card-body">
-		  		<h5 class="card-title">{{ service.name }}</h5>
-		  		<p class="card-text">{{ service.description }}</p>
-		  	</div>
-		</div>
-	{% endfor %}
-</div>
+services:
+  - title: "مراجعة المذكرات القانونية"
+    description: "مراجعة شاملة للمذكرات القانونية من حيث الصياغة، النظام، واللغة."
+  - title: "التدقيق الإملائي القانوني"
+    description: "تصحيح الصياغة الإملائية واللغوية للوثائق القانونية."
+  - title: "استشارات عبر الإنترنت"
+    description: "تقديم الاستشارات القانونية عن بُعد بكل خصوصية وموثوقية."
+  - title: "العقود"
+    description: "صياغة ومراجعة العقود بمختلف أنواعها وفق الأنظمة السعودية."
